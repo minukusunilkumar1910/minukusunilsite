@@ -1,0 +1,570 @@
+
+
+/* MOBILE */
+@media (max-width:1070px)  {
+   .navbar
+{
+   color: white;
+   background-color: rgb(3, 7, 8);
+   padding: 2%;
+}
+.navbar h1
+{
+   font-size: 1.1rem;
+
+}
+
+.sociallinks
+{
+   display: none;
+   column-gap: 15rem;
+}
+.name
+{
+ font-size: 13px;
+ color: #65bdec;
+
+}
+.mainpage
+{  margin-top: 4rem;
+   padding: 10px;
+   height: 93%;
+   display: flex;
+   flex-direction:column;
+   justify-content:space-evenly;
+   align-items: center;
+
+
+}
+
+.details
+{
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+   justify-content:center ;
+}
+.Myimage   
+{  display: flex;
+   align-items: center;
+   justify-content: center;
+   width: 15rem;
+   height: 15rem;   
+   background-size: cover;
+}
+   
+.details h1
+{
+   height: 3rem;
+   text-align: center;
+   font-size: 1.6rem;
+   color: #f67070;
+  
+}
+.section
+{
+   height:100%;
+   width: 100%;
+}
+.left
+{
+   display: none;
+}
+.right
+{
+   display: none;
+}
+ 
+#checkbox {
+   display: none;
+ }
+ 
+ .toggle {
+   position: relative;
+   width: 35px;
+   height: 35px;
+   cursor: pointer;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   gap: 10px;
+   transition-duration: .5s;
+ }
+ 
+ .bars {
+   width: 100%;
+   height: 3px;
+   background-color: rgb(255, 255, 255);
+   border-radius: 4px;
+ }
+ 
+ #bar2 {
+   transition-duration: .8s;
+  
+ }
+ 
+ #bar1,#bar3 {
+   width: 70%;
+   background-color: #88dcfd;
+    
+    
+ }
+  
+ 
+/* MORE ABOUT BUTTON */
+.fancy 
+{
+   background-color: transparent;
+   border: 2px solid #ffffff;
+   border-radius: 0 12px;
+   box-sizing: border-box;
+   color: #0bd7f7;
+   background-color: rgb(231, 248, 249);
+   cursor: pointer;
+   display: inline-block;
+   font-weight: 700;
+   letter-spacing: 0.05em;
+   padding: 1.25em 2em;
+   position: relative;
+   top: 10%;
+   text-align: center;
+   text-decoration: none;
+   font-size: 13px;
+   width: 14rem;
+   height: 3.2rem;
+  }
+ 
+  .fancy .top-key {
+   height: 2px;
+   width: 6rem;
+   top: -2px;
+   left: 0rem;
+   position: absolute;
+   background-color: #ec0f0f;
+  }
+  .fancy .bottom-key-1 {
+   height: 2px;
+   width:6rem;
+   right:0rem;
+   bottom: -2px;
+   position: absolute;
+   background-color: #e90d0d;
+  }
+   
+/* MORE ABOUT BUTTON */
+
+
+
+
+
+}
+
+
+
+/* mobile height */
+@media (max-height:650px)  {
+   .navbar
+   {
+      color: #2bece5;
+   }
+
+.mainsection
+{
+   height: 100%;
+}
+.details
+{
+   padding: 3.5rem;
+}
+.mainpage
+{
+   
+   display: flex;
+   flex-direction:column;
+   justify-content:space-around;
+   align-items: center;
+    
+}
+.navbar h1
+{
+  font-size: 1.3rem;
+}
+.Myimage   
+{  display: flex;
+   margin: 2rem;
+   align-items: center;
+   justify-content: center;
+   width: 15rem;
+   height: 15rem;   
+   background-size: cover;
+}
+
+ /* sidebar */
+.custom-radio-container {
+ 
+  width: 90%;
+  height: 17%;
+  padding: 10px 20px;
+ 
+}
+.closedbar
+{
+   margin-left: 30rem;
+}
+.close
+{
+  display: none;
+}
+ 
+ 
+}
+
+
+
+/* Mobile About */
+@media (max-width:1070px)
+{
+   #Aboutsection
+   {
+     
+      overflow: hidden;
+      background-image: url(./assets/s1.jpg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+   
+   }
+   .myimg
+   {
+      width: 15rem;
+      height: 20rem;
+      border-radius: 2.5rem;
+   }
+   .aboutimg{
+      margin-top: 1rem;
+      width: 15rem;
+      height: 20rem;
+      border-radius: 2.5rem;
+   }
+   .about
+   {
+      background-color: rgba(4, 7, 10, 0.831);
+      display: flex;
+      flex-direction: column;
+      justify-content:space-around;
+      align-items: center;
+      padding: 0 2rem;
+      height: 100%;
+
+   }
+   .aboutcontent 
+   {
+      color: white;
+      /* background-color: #0bd7f7;  */
+      width: 18rem;
+      height: 23rem;
+      padding: 0.4rem;
+      
+ 
+   }
+   .aboutcontent p
+   {
+      padding-top: 15px;
+      color: white;
+      font-size: 15px;
+      font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+   }
+   .aboutcontent span
+   {
+      font-size:19px;
+      color: tomato;
+   }
+   .aboutcontent h1
+   {
+      
+      /* color: rgb(27, 189, 217); */
+      text-decoration: underline;
+   }
+
+
+/* mobile Skills section */
+      
+   
+   #skillsection
+   {
+      height: 80vh;
+      /* background-color: #f1f8f0; */
+   }
+   
+   .skill h1{
+      
+   font-size: 2.5rem;
+  padding-top: 1rem;
+  color: #0fbbff;
+}
+.skill 
+{
+   width: 100%;
+   /* height: 15rem; */
+   /* margin-bottom: 12rem; */
+ /* padding: 1.5rem; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.75rem;
+}
+.skillpage
+{
+   /* height: 100%; */
+   margin-bottom: 15rem;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+   overflow: hidden;
+}
+ .skillcards
+ {
+   /* background-color: #65bdec; */
+   /* border: 1px solid black; */
+   display: flex;
+  align-items: center;
+  justify-content:space-evenly;
+ }
+ .skill h1{
+   color: black;
+}
+.skillpage h4{
+  
+   margin-top: 1rem;
+   text-align: center;
+   color: #0fbbff;
+   font-size: 1rem;
+   /* background-color: #ec0f0f; */
+   width: 100%;
+ }
+ 
+   .frontend
+   {
+      width: 4rem;
+      margin:3rem 0;
+   }
+   
+  
+ .card-container
+ {
+  /* border: 1px solid red; */
+  width: 100%;
+  border-radius: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1.5rem 0;
+  color: #0bd7f7;
+  text-align: center;
+ }
+ .skill h4
+ {
+   padding: 1rem;
+   /* background-color: #e90d0d; */
+   font-size: 0.6rem;
+ }
+ 
+
+}  
+
+
+
+/* mobile height about */
+@media (max-height:650px)
+{
+  #Aboutsection
+  {
+   height: 200vh;
+   background-image: url(./assets/s1.jpg);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+ 
+  }
+  .aboutcontent p
+  {
+   line-height: 1.1rem;
+   font-size: 15px;
+   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+  }
+  .about
+  {
+ 
+   background-color: rgba(4, 7, 10, 0.815);
+   flex-direction: row;
+
+  }
+  .aboutcontent span
+  {
+     font-size:18.3px;
+     color: tomato;
+      
+  }
+  .aboutcontent h1
+  {
+     /* color: rgb(27, 189, 217); */
+     text-decoration: underline;
+  }
+
+}
+
+
+
+/* mobile skills page */
+@media (max-height:650px)
+{
+#skillsection
+{
+ height: 150vh;
+ background-color: #ffffff;
+}
+.skill h1{
+   color: black;
+}
+.skill h4{
+   color: #0fbbff;
+   font-size: 1rem;
+ }
+.frontend
+{
+   width: 4rem;
+   margin:3rem 0;
+}
+
+}
+
+
+ 
+ 
+/* mobile projectspage*/
+@media (max-width:1070px)
+{
+    #projectsection
+    {
+      height: 130vh;
+       /* background-color: #0a89a8; */
+       text-align: center;
+    }
+    #projectsection h1
+    {
+          font-size: 2.5rem;
+          margin-top: 2rem;
+    }
+    .projectspage
+    {
+       height: 90%;
+       padding: 1rem;
+       
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       justify-content:space-around;
+    }
+ 
+    .main-content{
+      /* background-color: #e0bbbb; */
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+     .cardpro .header
+    {
+      background-color: #0a89a8;
+      height: 60%;
+    }
+    .projectsimg
+    {
+      width: 100%;
+      height: 100%;
+    }
+    
+ 
+    .cardpro { 
+       width: 280px;
+       height: 400px;
+       padding: 20px;
+       color: white;
+       background:rgb(197, 222, 236);
+       
+       border: 2px solid transparent;
+       border-radius: 8px;
+       display: flex;
+       flex-direction: column;
+       cursor: pointer;
+       transform-origin: top bottom;
+       transition: all 0.8s cubic-bezier(0.23, 1, 0.32, 1);
+     }
+     
+     .cardpro .main-content {
+       flex: 1;
+ 
+     }
+     
+     
+     .cardpro .heading {
+       font-size: 24px;
+       margin: 24px 0 16px;
+       font-weight: 600;
+     }
+     
+     .cardpro .categories {
+       display: flex;
+       gap: 10px;
+     }
+     
+     .cardpro .categories span {
+      background-color: #474a4b;
+       padding: 4px 8px;
+       font-weight: 600;
+       font-size: 10px;
+       margin-bottom: 0.5rem;
+       border-radius: 50em;
+     }
+     
+     .cardpro .footer {
+       font-weight: 600;
+       color: #717171;
+       margin-right: 4px;
+     }
+     .footername
+     {
+      color: #474a4b;
+     }
+    
+     
+}
+
+
+
+/* mobile project page */
+@media (max-height:650px)
+{
+   #projectsection
+    {
+      height: 150vh;
+     
+    }
+    .projectspage
+    {
+       height: 90%;
+       padding: 1rem;
+       
+       display: flex;
+       flex-direction: row;
+       align-items: center;
+       justify-content:space-around;
+    }
+
+    .cardpro { 
+      width: 280px;
+      height: 350px;
+   
+    }
+}

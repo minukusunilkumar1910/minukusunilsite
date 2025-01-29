@@ -1,0 +1,471 @@
+
+/* desktop */
+@media (min-width:1071px)  {
+   .hamburger
+{
+   display: none;
+   }
+   .mainpage
+{
+   /* background-color:rgb(0, 255, 30); */
+   min-height:92.5vh ;
+   display: flex;
+   margin-top: 3rem;
+   justify-content: space-evenly;
+   align-items: center;
+}
+.details
+{
+   /* background-color: blue; */
+   /* color: rgb(21, 34, 215); */
+   
+   height: 35rem;
+   padding: 1rem;
+   row-gap: 1rem;
+   font-size: 1.3rem;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+}
+.details h1
+{
+   color: #f67070;
+
+}
+
+/* PROFILE SCORLLING */
+.left
+{
+   position: relative;
+   width: 50%;
+   height: 100%;
+   overflow: hidden;
+   background-color: rgba(21, 21, 21, 0);
+}
+
+.right
+{
+   background-color: rgba(217, 231, 236, 0.315);
+   position: relative;
+   width: 50%;
+   height: 100%;
+   overflow: hidden;
+  
+}
+
+.scroll
+{  
+   color:#000000bc;
+   position: absolute;
+   font-size: 5.7em;
+   white-space: nowrap;
+   line-height: 60vh;
+   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   animation: anim 70s linear infinite;
+}
+
+@keyframes anim
+{
+   0%{transform: translateX(0);}
+   100%{transform: translateX(-100%);}
+}
+
+.left .scroll
+{
+
+    color: rgb(217, 231, 236);
+   -webkit-text-fill-color: transparent;
+   /* -webkit-text-stroke-:; */
+   -webkit-text-stroke: 3px;
+   left: 100%;
+}
+/* PROFILE SCORLLING */
+
+
+/* MORE ABOUT BUTTON */
+.fancy {
+   background-color: transparent;
+   border: 2px solid #0d0d16;
+   border-radius: 0;
+   box-sizing: border-box;
+   color: #ec2b2b;
+   cursor: pointer;
+   display: inline-block;
+   font-weight: 700;
+   letter-spacing: 0.05em;
+   margin: 0;
+   outline: none;
+   overflow: visible;
+   padding: 1.25em 2em;
+   position: relative;
+   text-align: center;
+   text-decoration: none;
+   text-transform: none;
+   transition: all 0.3s ease-in-out;
+   user-select: none;
+   font-size: 13px;
+  }
+  
+  .fancy::before {
+   content: " ";
+   width: 1.5625rem;
+   height: 2px;
+   background: black;
+   top: 50%;
+   left: 1.5em;
+   position: absolute;
+   transform: translateY(-50%);
+   transform-origin: center;
+   transition: background 0.3s linear, width 0.3s linear;
+  }
+  
+  .fancy .textabout {
+   font-size: 1.125em;
+   line-height: 1.33333em;
+   padding-left: 2em;
+   display: block;
+   text-align: left;
+   transition: all 0.3s ease-in-out;
+   text-transform: uppercase;
+   text-decoration: none;
+   color: rgb(21, 186, 215);
+  }
+  
+  .fancy .top-key {
+   height: 2px;
+   width: 1.5625rem;
+   top: -2px;
+   left: 0.625rem;
+   position: absolute;
+   background: #e8e8e8;
+   transition: width 0.5s ease-out, left 0.3s ease-out;
+  }
+  
+  .fancy .bottom-key-1 {
+   height: 2px;
+   width: 1.5625rem;
+   right: 1.875rem;
+   bottom: -2px;
+   position: absolute;
+   background: #e8e8e8;
+   transition: width 0.5s ease-out, right 0.3s ease-out;
+  }
+  
+  .fancy .bottom-key-2 {
+   height: 2px;
+   width: 0.625rem;
+   right: 0.625rem;
+   bottom: -2px;
+   position: absolute;
+   background: #e8e8e8;
+   transition: width 0.5s ease-out, right 0.3s ease-out;
+  }
+  
+  .fancy:hover {
+   color: white;
+   background: rgb(0, 0, 0);
+  }
+  
+  .fancy:hover::before {
+   width: 0.9375rem;
+   background: white;
+  }
+  
+  .fancy:hover .text {
+   color: white;
+   padding-left: 1.5em;
+  }
+  
+  .fancy:hover .top-key {
+   left: -2px;
+   width: 0px;
+  }
+  
+  .fancy:hover .bottom-key-1,
+   .fancy:hover .bottom-key-2 {
+   right: 0;
+   width: 0;
+  }
+/* MORE ABOUT BUTTON */
+
+
+
+}
+
+/* desktop Aboutpage*/
+@media (min-width:1071px)
+{
+   #Aboutsection
+{
+   background-image: url(./assets/s1.jpg);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+   .about
+   {
+      background-color: rgba(4, 7, 10, 0.806);
+      height: 100%;
+      border-radius: 1rem;
+      color: white;
+      display: flex;
+      justify-content:space-evenly;
+      align-items: center;
+   }
+   .aboutimg
+   {
+      width: 25rem;
+      height: 29rem;
+      margin-top: 6rem;
+      border-radius: 2rem;
+   }
+   .myimg
+   {
+      width: 21rem;
+      height: 29rem;
+      border-radius: 2.5rem;
+   }
+   
+   .aboutcontent 
+   {
+      /* background-color:red ; */
+   
+      width: 35rem;
+      height:35rem;
+      padding: 1rem;
+   
+   }
+   
+   .aboutcontent p
+   {
+      color: white;
+      font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+      letter-spacing: 2px;
+      line-height: 1.5rem;
+       font-size: 20px;
+       font-weight: 450;
+   }
+   .aboutcontent h1
+   {
+      margin-bottom: 5rem;
+      font-size: 2.6rem;
+      /* color: rgb(27, 189, 217); */
+      /* text-decoration: underline; */
+   }
+   .aboutcontent  span
+   {
+      /* display: flex; */
+      color: tomato;
+      font-size:1.7rem; 
+      
+   }
+   
+}
+ 
+ 
+/* desktop projectspage*/
+@media (min-width:1071px)
+{
+   
+   #projectsection
+   {
+
+      /* background-color: #0a89a8; */
+      text-align: center;
+   }
+   #projectsection h1
+   {
+         font-size: 2.5rem;
+         margin-top: 2rem;
+   }
+   .projectspage
+   {
+      height: 90%;
+      padding: 1rem;
+     
+      display: flex;
+      align-items: center;
+      justify-content:space-around;
+   }
+
+
+   .cardpro { 
+      width: 350px;
+      height: 500px;
+      padding: 20px;
+      color: white;
+      background:rgb(178, 220, 245);
+      border: 2px solid transparent;
+      border-radius: 8px;
+      display: flex;
+      flex-direction: column;
+      cursor: pointer;
+      transform-origin: top bottom;
+      transition: all 0.8s cubic-bezier(0.23, 1, 0.32, 1);
+    }
+    
+    .cardpro .main-content {
+      flex: 1;
+
+    }
+    .cardpro .header
+    {
+      background-color: #0a89a8;
+      height: 60%;
+    }
+    .projectsimg
+    {
+      width: 100%;
+      height: 100%;
+    }
+    
+   
+    
+    .cardpro .heading {
+      font-size: 24px;
+      margin: 24px 0 16px;
+      font-weight: 600;
+    }
+    .main-content{
+      
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .cardpro .categories {
+      display: flex;
+      gap: 10px;
+    }
+    
+    .cardpro .categories span {
+      background-color: #474a4b;
+      padding: 4px 8px;
+      font-weight: 600;
+ 
+      font-size: 10px;
+      border-radius: 50em;
+    }
+    
+    .cardpro .footer {
+      font-weight: 600;
+      color: #717171;
+      margin-right: 4px;
+    }
+    
+    .cardpro:hover {
+      rotate: -6deg;
+    }
+    
+   
+
+   /* desktop contactpage*/
+   #contactsection
+   {
+      height: 50vh;
+      width: 100%;
+   }
+   .contactmainpage
+   {
+      height: 50vh;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      align-items: center;
+   }
+   .contactpage
+   {
+      /* background-color: black; */
+      height: 50vh;
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      padding: 1rem;
+      /* flex-wrap: wrap; */
+      width: 100%;
+   }
+   .contactme
+   {
+      width: 25rem;
+      height: 8rem;
+      background-color: rgb(19, 239, 239);
+      display: flex;
+      justify-content: space-between;
+   }
+   .contactmail
+   {  
+   /* background-color: aqua; */
+   margin-top: 2rem;
+   width: 100%;
+   height: 10rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+   }
+   .touchdiv
+   {
+      /* background-color: rgb(4, 22, 183); */
+      font-size: 1.6rem;
+   
+   }
+   .mymail
+   {
+      /* background-color: tomato; */
+      padding:0 1.5rem;
+      width: 20rem;
+      text-align: center;
+         
+   }
+   .mymail a
+   {  
+      font-size: 18px;
+      letter-spacing: 1px;
+      text-decoration: none;
+      color: rgb(23, 66, 166);
+      font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   }
+   .mymail a:hover
+   {
+      text-decoration: 1px rgb(31, 91, 243) underline;
+      opacity: 0.9;
+   }
+   
+   
+   
+   .carding {
+      box-sizing: border-box;
+      
+      background: rgba(223, 237, 243, 0.58);
+      border: 1px solid white;
+      box-shadow: 12px 17px 51px rgba(0, 0, 0, 0.22);
+      backdrop-filter: blur(6px);
+      border-radius: 17px;
+      text-align: center;
+      cursor: pointer;
+      transition: all 0.5s;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      user-select: none;
+      font-weight: bolder;
+      color: black;
+    }
+    
+    .carding:hover {
+      border: 1px solid black;
+      transform: scale(1.05);
+    }
+    
+    .carding:active {
+      transform: scale(0.95) rotateZ(1.7deg);
+    }
+   
+   
+    .githubimg
+    {
+      width: 3.4rem;
+    }
+}

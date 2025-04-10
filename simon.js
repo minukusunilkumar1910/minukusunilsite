@@ -34,4 +34,4 @@ for(sl of slideclose)
          closeb.style.display="none";
          closeb.style.zIndex=0;
       });
-}
+} 
